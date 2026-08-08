@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Моё портфолио</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/cursor_style.css" />
 </head>
 <body>
+    <script src="scripts/cursor.js"></script>
+    <div class="custom-cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-ring"></div>
+    </div>
     <div class="container">
         <!-- Шапка -->
         <header>
@@ -23,18 +29,40 @@
                     Меня зовут Михаил, и немного букав про меня...
                 </p>
                 <div class="social">
-                    <a href="#">GitHub</a>
+                    <a href="https://github.com/Mihter">GitHub</a>
                     <a href="#">Telegram</a>
                 </div>
             </div>
         </section>
 
-        <!-- Навыки -->
-        <section class="skills">
-            <h2>Мои навыки</h2>
-            <div class="skills-grid">
-                <div class="skill-card">C#</div>
-                <div class="skill-card">Git &amp; GitHub</div>
+        <!-- Стеки -->
+        <section class="stacks">
+            <h2>Мои стеки</h2>
+            <div class="stacks-grid">
+                <div class="stack-card" data-stack="frontend">
+                    <div class="stack-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="stack-image">
+                        <img src="images/5369996136939520.png" />
+                    </div>
+                </div>
+                <div class="stack-card" data-stack="backend">
+                    <div class="stack-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="stack-image">
+                        <img src="images/Microsoft_.NET_logo.png" />
+                    </div>
+                </div>
+                <div class="stack-card" data-stack="devops">
+                    <div class="stack-header">
+                        <h3>DevOps</h3>
+                    </div>
+                    <div class="stack-image">
+                        <img src="images/docker.png" />
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -47,15 +75,15 @@
                     <p>Кратко опишу</p>
                     <a href="#">Смотреть →</a>
                 </div>
-                </div>
             </div>
-        </section>
+    </div>
+    </section>
 
-        <!-- Контакты -->
-        <footer>
-            <p>📧 mihail.kazmin.04@mail.ru</p>
-            <p class="copy">© 2026 Все права защищены</p>
-        </footer>
+    <!-- Контакты -->
+    <footer>
+        <p>📧 mihail.kazmin.04@mail.ru</p>
+        <p class="copy">© 2026 Все права защищены</p>
+    </footer>
     </div>
 </body>
 </html>

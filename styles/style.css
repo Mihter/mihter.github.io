@@ -35,11 +35,11 @@ header h1 {
     letter-spacing: -0.02em;
 }
 
-header h1 span {
-    background: linear-gradient(135deg, #a78bfa, #6ee7b7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+    header h1 span {
+        background: linear-gradient(135deg, #4169E1, #00FF00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
 .subtitle {
     font-size: 1.2rem;
@@ -100,6 +100,139 @@ header h1 span {
     border-bottom-color: #a78bfa;
 }
 
+/*Стеки*/
+.stacks {
+    margin-bottom: 60px;
+}
+
+.stacks h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.stacks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.stack-card {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+    position: relative;
+}
+
+.stack-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+    border-color: rgba(167, 139, 250, 0.3);
+}
+
+.stack-header {
+    padding: 14px 20px;
+    background: rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .stack-header h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 0;
+        color: #e0e0e0;
+        transition: color 0.3s;
+        letter-spacing: 0.5px;
+    }
+
+.stack-card:hover .stack-header h3 {
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Анимация иконок при наведении */
+.stack-card:hover .stack-image img {
+    filter: grayscale(0) brightness(1);
+    opacity: 1;
+    transform: scale(1.1) rotate(2deg);
+}
+
+    .stack-card:hover .stack-image img:nth-child(1) {
+        transform: scale(1.15) rotate(-3deg);
+        animation: floatIcon 2s ease-in-out infinite;
+    }
+
+/* Индивидуальная подсветка карточек */
+.stack-card[data-stack="frontend"]:hover {
+    border-color: rgba(97, 218, 251, 0.4);
+    box-shadow: 0 20px 60px rgba(97, 218, 251, 0.1);
+}
+
+    .stack-card[data-stack="frontend"]:hover .stack-header h3 {
+        background: linear-gradient(135deg, #61dafb, #f7df1e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+.stack-card[data-stack="backend"]:hover {
+    border-color: rgba(167, 139, 250, 0.4);
+    box-shadow: 0 20px 60px rgba(167, 139, 250, 0.1);
+}
+
+    .stack-card[data-stack="backend"]:hover .stack-header h3 {
+        background: linear-gradient(135deg, #a78bfa, #6ee7b7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+.stack-card[data-stack="devops"]:hover {
+    border-color: rgba(110, 231, 183, 0.4);
+    box-shadow: 0 20px 60px rgba(110, 231, 183, 0.1);
+}
+
+    .stack-card[data-stack="devops"]:hover .stack-header h3 {
+        background: linear-gradient(135deg, #6ee7b7, #60a5fa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+.stack-image {
+    padding: 24px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+    .stack-image img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+    }
+
+/* Анимация плавания */
+@keyframes floatIcon {
+    0%, 100% {
+        transform: translateY(0) scale(1.1) rotate(var(--rotate, 0deg));
+    }
+
+    50% {
+        transform: translateY(-8px) scale(1.15) rotate(var(--rotate, 0deg));
+    }
+}
+
 /* Навыки */
 .skills {
     margin-bottom: 60px;
@@ -111,6 +244,7 @@ header h1 span {
     background: linear-gradient(135deg, #60a5fa, #a78bfa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .skills-grid {
@@ -233,5 +367,19 @@ footer p {
 
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+    .stacks-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .stacks-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: 0 auto;
     }
 }
