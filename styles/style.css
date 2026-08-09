@@ -126,7 +126,6 @@ header h1 {
     border: 1px solid rgba(255, 255, 255, 0.06);
     overflow: hidden;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    cursor: pointer;
     position: relative;
 }
 
@@ -217,8 +216,8 @@ header h1 {
 }
 
     .stack-image img {
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
         object-fit: contain;
     }
 
