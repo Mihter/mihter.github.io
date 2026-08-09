@@ -5,7 +5,7 @@
       "description": "Описание.",
       "image": "../images/projects/zagluska.png",
       "link": "https://github.com/Mihter/",
-      "tags": [ "recent", "pet" ],
+      "tags": [ "recent", "pet", "top" ],
       "order": 1
     },
     {

@@ -55,7 +55,7 @@ function renderProjectsPage(currentFilter, config, projects, allConfigs) {
         projectsHTML = `<p class="no-projects">Нет проектов по этому фильтру</p>`;
     } else {
         projects.forEach(project => {
-            projectsHTML += window.ProjectsLoader.renderProjectCard(project, '');
+            projectsHTML += window.ProjectsLoader.renderProjectCard(project, '../');
         });
     }
 
