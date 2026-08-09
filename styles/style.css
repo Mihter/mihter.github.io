@@ -271,6 +271,13 @@ header h1 {
 }
 
 /* Проекты */
+.projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 .projects h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
@@ -278,6 +285,25 @@ header h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.more-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 12px 30px;
+    background: rgba(167, 139, 250, 0.15);
+    border: 1px solid rgba(167, 139, 250, 0.3);
+    border-radius: 30px;
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: all 0.3s;
+    white-space: nowrap;
+}
+
+    .more-link:hover {
+        background: rgba(167, 139, 250, 0.25);
+        transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba(167, 139, 250, 0.15);
+    }
 
 .projects-grid {
     display: grid;
@@ -329,6 +355,7 @@ footer {
     margin-top: 60px;
     padding-top: 30px;
     border-top: 1px solid rgba(255, 255, 255, 0.06);
+    max-width: 250px;
 }
 
 footer p {
@@ -372,6 +399,14 @@ footer p {
 @media (max-width: 900px) {
     .stacks-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    body {
+        flex-direction: column;
+    }
+
+    footer{
+        max-width: none;
     }
 }
 
