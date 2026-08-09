@@ -1,0 +1,44 @@
+﻿{
+  "projects": [
+    {
+      "name": "Имя1",
+      "description": "Описание.",
+      "image": "../images/projects/zagluska.png",
+      "link": "https://github.com/Mihter/",
+      "tags": [ "recent", "pet" ],
+      "order": 1
+    },
+    {
+      "name": "Имя2",
+      "description": "Описание.",
+      "image": "../images/projects/zagluska.png",
+      "link": "https://github.com/Mihter/",
+      "tags": [ "recent", "pet" ],
+      "order": 2
+    },
+    {
+      "name": "Имя3",
+      "description": "Описание.",
+      "image": "../images/projects/zagluska.png",
+      "link": "https://github.com/Mihter/",
+      "tags": [ "recent", "study" ],
+      "order": 3
+    },
+    {
+      "name": "Имя4",
+      "description": "Описание.",
+      "image": "../images/projects/zagluska.png",
+      "link": "https://github.com/Mihter/",
+      "tags": [ "study" ],
+      "order": 4
+    },
+    {
+      "name": "Имя5",
+      "description": "Описание.",
+      "image": "../images/projects/zagluska.png",
+      "link": "https://github.com/Mihter/",
+      "tags": [ "pet" ],
+      "order": 5
+    }
+  ]
+}

@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 function renderStackPage(stack, config, techs) {
     const content = document.getElementById('content');
 
-    document.title = `${config.title} — Моё портфолио`;
+    document.title = `${config.title}`;
 
     let techsHTML = '';
     techs.forEach(tech => {
