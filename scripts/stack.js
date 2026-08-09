@@ -109,8 +109,4 @@ function renderStackPage(stack, config, techs) {
             ${techsHTML || '<p style="color: #94a3b8;">Нет технологий в этом стеке</p>'}
         </div>
     `;
-
-    if (window.reinitCursor) {
-        window.reinitCursor();
-    }
 }

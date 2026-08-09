@@ -76,6 +76,4 @@ function renderProjectsPage(currentFilter, config, projects, allConfigs) {
             ${projectsHTML}
         </div>
     `;
-
-    if (window.reinitCursor) window.reinitCursor();
 }
