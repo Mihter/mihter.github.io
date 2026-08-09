@@ -1,0 +1,68 @@
+﻿{
+  "techs": [
+    {
+      "id": "aspnet-core",
+      "name": "ASP.NET Core",
+      "image": "../images/aspnet.png",
+      "tags": [ "backend" ],
+      "order": 1,
+      "description": "Основной фреймворк для бекенда"
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "image": "../images/postgresql.png",
+      "tags": [ "backend" ],
+      "order": 2,
+      "description": "Реляционная база данных"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "image": "../images/react.png",
+      "tags": [ "frontend" ],
+      "order": 1,
+      "description": "Библиотека для UI"
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "image": "../images/typescript.png",
+      "tags": [ "frontend" ],
+      "order": 2,
+      "description": "Типизированный JavaScript"
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "image": "../images/docker.png",
+      "tags": [ "devops" ],
+      "order": 1,
+      "description": "Контейнеризация"
+    },
+    {
+      "id": "html5",
+      "name": "HTML5",
+      "image": "../images/html5.png",
+      "tags": [ "frontend" ],
+      "order": 3,
+      "description": "Структура веб-страниц"
+    },
+    {
+      "id": "css3",
+      "name": "CSS3",
+      "image": "../images/css3.png",
+      "tags": [ "frontend" ],
+      "order": 4,
+      "description": "Стилизация"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "image": "../images/git.png",
+      "tags": [ "devops" ],
+      "order": 3,
+      "description": "Система контроля версий"
+    }
+  ]
+}
