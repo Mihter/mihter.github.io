@@ -59,7 +59,7 @@
     {
       "name": "Аналог Я.Афиша",
       "description": "Прототип для ознакомления с языком Go и protobuff",
-      "image": "../images/projects/zagluska.png",
+      "image": "../images/projects/yafisha.webp",
       "link": "https://github.com/Mihter/ticket-booking",
       "tags": [ "study", "top" ],
       "order": 8
@@ -67,7 +67,7 @@
     {
       "name": "Cycleo",
       "description": "Учебный стартап, женский календарь, аналог Flo",
-      "image": "../images/projects/zagluska.png",
+      "image": "../images/projects/cycleo.png",
       "link": "https://github.com/Mihter/WomenCalendar",
       "tags": [ "study", "top" ],
       "order": 9
@@ -75,7 +75,7 @@
     {
       "name": "Бот для коллекционеров значков",
       "description": "Разпознавание и создание альбомов из значков",
-      "image": "../images/projects/zagluska.png",
+      "image": "../images/projects/badgesbot.jpg",
       "link": "https://github.com/Mihter/BadgesManagerBot",
       "tags": [ "study", "top" ],
       "order": 10
