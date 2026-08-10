@@ -1,44 +1,100 @@
 ﻿{
   "projects": [
     {
-      "name": "Имя1",
-      "description": "Описание.",
+      "name": "Сайт визитка",
+      "description": "Сайт на котором вы сейчас находитесь",
       "image": "../images/projects/zagluska.png",
-      "link": "https://github.com/Mihter/",
+      "link": "https://github.com/Mihter/mihter.github.io",
       "tags": [ "recent", "pet", "top" ],
       "order": 1
     },
     {
-      "name": "Имя2",
-      "description": "Описание.",
+      "name": "MediaGallery",
+      "description": "Интересная идея друга, в реализации которой помогаю",
       "image": "../images/projects/zagluska.png",
-      "link": "https://github.com/Mihter/",
-      "tags": [ "recent", "pet" ],
+      "link": "https://github.com/Mihter/MediaGallery",
+      "tags": [ "recent", "pet", "top" ],
       "order": 2
     },
     {
-      "name": "Имя3",
-      "description": "Описание.",
+      "name": "Дипломная работа",
+      "description": "Серивис бронирования совещательный помещений и виртуальных конферениций",
       "image": "../images/projects/zagluska.png",
-      "link": "https://github.com/Mihter/",
-      "tags": [ "recent", "study" ],
+      "link": "https://github.com/Mihter/MeetingRoomsSystem",
+      "tags": [ "recent", "study", "top" ],
       "order": 3
     },
     {
-      "name": "Имя4",
-      "description": "Описание.",
+      "name": "ShikiNewsBot",
+      "description": "Дискорд-бот для постинга новостей с Shikimori-API",
       "image": "../images/projects/zagluska.png",
-      "link": "https://github.com/Mihter/",
-      "tags": [ "study" ],
+      "link": "https://github.com/Mihter/ShikiNewsBot",
+      "tags": [ "pet", "top" ],
       "order": 4
     },
     {
-      "name": "Имя5",
-      "description": "Описание.",
+      "name": "YT Play Music Bot",
+      "description": "Дискорд-бот для проигрывания музыки с ютуба в голосовом канале",
       "image": "../images/projects/zagluska.png",
-      "link": "https://github.com/Mihter/",
-      "tags": [ "pet" ],
+      "link": "https://github.com/Mihter/MusicPlayerDiscordBot",
+      "tags": [ "pet", "top" ],
       "order": 5
+    },
+    {
+      "name": "Adobe Abobe",
+      "description": "Веб-сервис для редактирование изображений",
+      "image": "../images/projects/zagluska.png",
+      "link": "https://github.com/CSU-2025-1/Adobe-Abobe",
+      "tags": [ "study", "top" ],
+      "order": 6
+    },
+    {
+      "name": "Аналог Я.Дзен",
+      "description": "Прототип для ознакомления с PHP и фреймвоком Laravel",
+      "image": "../images/projects/zagluska.png",
+      "link": "https://github.com/Mihter/DzenProject",
+      "tags": [ "study", "top" ],
+      "order": 7
+    },
+    {
+      "name": "Аналог Я.Афиша",
+      "description": "Прототип для ознакомления с языком Go и protobuff",
+      "image": "../images/projects/zagluska.png",
+      "link": "https://github.com/Mihter/ticket-booking",
+      "tags": [ "study", "top" ],
+      "order": 8
+    },
+    {
+      "name": "Cycleo",
+      "description": "Учебный стартап, женский календарь, аналог Flo",
+      "image": "../images/projects/zagluska.png",
+      "link": "https://github.com/Mihter/WomenCalendar",
+      "tags": [ "study", "top" ],
+      "order": 9
+    },
+    {
+      "name": "Бот для коллекционеров значков",
+      "description": "Разпознавание и создание альбомов из значков",
+      "image": "../images/projects/zagluska.png",
+      "link": "https://github.com/Mihter/BadgesManagerBot",
+      "tags": [ "study", "top" ],
+      "order": 10
+    },
+    {
+      "name": "TODO-list",
+      "description": "TODO-list, как первый учебный проект на React",
+      "image": "../images/projects/zagluska.png",
+      "link": "https://github.com/Mihter/peresdacha-react-todo-list",
+      "tags": [ "study" ],
+      "order": 11
+    },
+    {
+      "name": "Верстка страницы",
+      "description": "Первый опыт в верстке страницы",
+      "image": "../images/projects/zagluska.png",
+      "link": "https://github.com/Mihter/FrontSiteLab1",
+      "tags": [ "study" ],
+      "order": 12
     }
   ]
 }
