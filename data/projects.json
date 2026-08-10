@@ -3,7 +3,7 @@
     {
       "name": "Сайт визитка",
       "description": "Сайт на котором вы сейчас находитесь",
-      "image": "../images/projects/zagluska.png",
+      "image": "../images/projects/Np5u7EU.jpeg",
       "link": "https://github.com/Mihter/mihter.github.io",
       "tags": [ "recent", "pet", "top" ],
       "order": 1
@@ -11,7 +11,7 @@
     {
       "name": "MediaGallery",
       "description": "Интересная идея друга, в реализации которой помогаю",
-      "image": "../images/projects/zagluska.png",
+      "image": "../images/projects/mediagallery.jpg",
       "link": "https://github.com/Mihter/MediaGallery",
       "tags": [ "recent", "pet", "top" ],
       "order": 2
@@ -19,7 +19,7 @@
     {
       "name": "Дипломная работа",
       "description": "Серивис бронирования совещательный помещений и виртуальных конферениций",
-      "image": "../images/projects/zagluska.png",
+      "image": "../images/projects/meetingroom.png",
       "link": "https://github.com/Mihter/MeetingRoomsSystem",
       "tags": [ "recent", "study", "top" ],
       "order": 3
@@ -27,7 +27,7 @@
     {
       "name": "ShikiNewsBot",
       "description": "Дискорд-бот для постинга новостей с Shikimori-API",
-      "image": "../images/projects/zagluska.png",
+      "image": "../images/projects/shikimori.jpg",
       "link": "https://github.com/Mihter/ShikiNewsBot",
       "tags": [ "pet", "top" ],
       "order": 4
@@ -35,7 +35,7 @@
     {
       "name": "YT Play Music Bot",
       "description": "Дискорд-бот для проигрывания музыки с ютуба в голосовом канале",
-      "image": "../images/projects/zagluska.png",
+      "image": "../images/projects/ytmusicbot.png",
       "link": "https://github.com/Mihter/MusicPlayerDiscordBot",
       "tags": [ "pet", "top" ],
       "order": 5
@@ -43,7 +43,7 @@
     {
       "name": "Adobe Abobe",
       "description": "Веб-сервис для редактирование изображений",
-      "image": "../images/projects/zagluska.png",
+      "image": "../images/projects/Adobe Abobe.png",
       "link": "https://github.com/CSU-2025-1/Adobe-Abobe",
       "tags": [ "study", "top" ],
       "order": 6
@@ -51,7 +51,7 @@
     {
       "name": "Аналог Я.Дзен",
       "description": "Прототип для ознакомления с PHP и фреймвоком Laravel",
-      "image": "../images/projects/zagluska.png",
+      "image": "../images/projects/dzen.jpg",
       "link": "https://github.com/Mihter/DzenProject",
       "tags": [ "study", "top" ],
       "order": 7
